@@ -2,28 +2,23 @@
 Git commands(Pull, Commit, Push, Stash, Branch, Tags, Rename, Log, Merge)
 
 # Basic Commands
-
 - git init : turns a directory into an empty Git repository. This is the first step in creating a repository. After running git init, adding and committing files/directories is possible. 
 - git config : configurations and settings
 - git status : This command returns the current state of the repository.
 - git add <file or directory name> : Adds files in the to the staging area for Git
 - git commit -m "Commit message in quotes" : Record the changes made to the files to a local repository. For easy reference, each commit has a unique ID.
 - git checkout <sha1> : to check out a particular commit.
-
-=========================================================================================
-
+  
+  
 # Remote Repositories
-
 - git remote <command> <remote_name> <remote_URL> : Add remote repository
 - git remote -v : List named remote repositories
 - git clone <remote_URL> :create a local working copy of an existing remote repository
 - git pull : get the latest version of a repository run git pull
 - git push  : Sends local commits to the remote repository.  
 
-=========================================================================================
 
 # Branching 
-
 - git branch <branch-name> : creates a new branch
 - git checkout <branch-name> : checks-out the HEAD commit for the given branch
   	-b : creates a branch first if it doesn’t exist before checking it out.
@@ -33,10 +28,8 @@ Git commands(Pull, Commit, Push, Stash, Branch, Tags, Rename, Log, Merge)
 - git branch -D <branch_name> : force deletes a branch locally
 - git merge <branch_name> : Integrate branches together.
   
-=========================================================================================
 
 # Stash
-
 - git stash -u : Store current work with untracked files
 - git stash pop : Bring stashed work back to the working directory
 - git stash drop : delete all the stash list
@@ -48,10 +41,8 @@ Git commands(Pull, Commit, Push, Stash, Branch, Tags, Rename, Log, Merge)
 
 ~ Where n in the index of the stashed change.
 
-=========================================================================================
 
 # Merging 
-
  (Merging <branch-name>  into master : run the following one by one)
 - git checkout master: check out the master so that you can merge the branch into the master
 - git merge <branch-name> : this will merge the branch in the master. You need to resolve the conflict manually.
@@ -61,18 +52,14 @@ Git commands(Pull, Commit, Push, Stash, Branch, Tags, Rename, Log, Merge)
 
 ~ Make a commit of conflict resolution
 
-=========================================================================================
 
 # Rename (run the following one by one)
-
 1. git branch -m old_branch new_branch : Rename branch locally    
 2. git push origin :old_branch : Delete the old branch    
 3. git push --set-upstream origin new_branch : Push the new branch, set local branch to track the new remote
 
-=========================================================================================
 
 # log
-
 - git log : Show entire git log
 - git log --<after/before/since/until>=<date> : Show git log with date parameters
 - git log --<author>="Author Name" : Show git log based on commit author
