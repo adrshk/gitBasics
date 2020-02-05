@@ -69,5 +69,4 @@ Git commands(Pull, Commit, Push, Stash, Branch, Tags, Rename, Log, Merge)
 
 
 
-
-*~ will update more command with example soon.*
+~ *will update more git commands with examples soon.*
