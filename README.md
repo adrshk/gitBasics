@@ -21,7 +21,7 @@ Git commands(Pull, Commit, Push, Stash, Branch, Tags, Rename, Log, Merge)
 # Branching 
 - ```git branch <branch-name>``` : creates a new branch
 - ```git checkout <branch-name>``` : checks-out the HEAD commit for the given branch
-  	*-b : creates a branch first if it doesn’t exist before checking it out.*
+    - *-b : creates a branch first if it doesn’t exist before checking it out.*
 - ```git branch``` : shows a list of all existing branches in the project and indicates the current branch with an asterisk (*).
 - ```git push -d origin(remote_name) <branch_name> ```: deletes an existing branch in the remote repo, should be executed before deleting the branch locally
 - ```git branch -d <branch_name>``` : checks if a branch is merged with master and if it is, deletes it locally, else gives a warning message.
@@ -53,7 +53,7 @@ Git commands(Pull, Commit, Push, Stash, Branch, Tags, Rename, Log, Merge)
 - ```git checkout <branch-name>``` :  checkout the branch in which you want master branch to be merged.
 - ```git merge master``` :  This will merge master into the current working branch. You need to resole the conflict manually.   
 
-~ Make a commit of conflict resolution
+~ *Make a commit of conflict resolution*
 
 
 # Rename (run the following one by one)
@@ -69,3 +69,5 @@ Git commands(Pull, Commit, Push, Stash, Branch, Tags, Rename, Log, Merge)
 
 
 
+
+*~ will update more command with example soon.*
