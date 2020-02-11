@@ -59,8 +59,8 @@ Git commands(Pull, Commit, Push, Stash, Branch, Tags, Rename, Log, Merge)
 # Rename (run the following one by one)
 1. ```git pull``` : pull the latest code
 2.  Rename branch locally     
-  ```git branch -m old_branch_name new_branch_name``` : If you are on a different branch
-  ```git branch -m new_branch_name``` : if you are on the branch you want to rename
+    - ```git branch -m old_branch_name new_branch_name``` : If you are on a different branch
+    - ```git branch -m new_branch_name``` : if you are on the branch you want to rename
 3. ```git push origin :old_branch_name new_branch_name``` : Delete the old_branch_name remote branch and push the new_branch_name local branch  
 4. ```git push --set-upstream origin new_branch_name``` : Reset the upstream branch for the new_branch_name local branch
 
